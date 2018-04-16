@@ -18,13 +18,13 @@ class SyntaxSuite extends FunSuite{
     assertDoesNotCompile("x = 1")
   }
 
-  test("Los tipos en Scala son iferidos por el compilador"){
+  test("Los tipos en Scala son inferidos por el compilador"){
     // Fijate como no hay que decir de qué tipo es x
     val x = 0
     assert(x == 0)
 
     // Aunque tambien lo puedes hacer explicito si asi lo quieres
-    val y= "0"
+    val y = "0"
     assert(y == "0")
 
     // Si eres incredulo fijate como el tipo es fuerte y no debil
@@ -76,9 +76,12 @@ class SyntaxSuite extends FunSuite{
 
     // A una class se le debe instanciar con new pasándole los atributos que define para su construccion
     val mc = new MyClass(1)
+
     val res = mc.f1
     assert(res == 2)
+    assertDoesNotCompile("println(mc.a)")
   }
+
 
   test("A un class se le puede  mutar su estado"){
 
@@ -105,11 +108,12 @@ class SyntaxSuite extends FunSuite{
     assert(mc.r == 2)
     val res2 = mc.f1
     assert(mc.r == 4)
+
   }
 
   test("Un case es una clase normal para usos especificos"){
 
-    case class MyCaseClass(a:Int, b:Int) {
+    case class MyCaseClass(var a:Int,var b:Int) {
       def f1(a:Int) = a + 1
     }
 
@@ -124,7 +128,7 @@ class SyntaxSuite extends FunSuite{
     assert(mcc2.f1(1) == 2)
 
     //Que pasa si intentamos println(mcc2) ?
-
+    println(mcc2)
     // Pregunta cuáles son esos casos específicos
 
   }
