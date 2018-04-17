@@ -154,16 +154,70 @@ class SyntaxSuite extends FunSuite{
 
   }
 
-  test("Un trait puede tener tambien implementaciones"){
+  test("Un trait puede tener tambien implementaciones0"){
     trait MyTrait {
-      def f1(a:Int) = a + 1
+      def f1(a:Int):Int = a + 1
     }
+
 
     class MyClass extends MyTrait
 
     val mc = new MyClass
     val res = mc.f1(1)
     assert(res == 2)
+  }
+
+  test("Un trait puede tener tambien implementaciones1"){
+    trait MyTrait {
+      def f1(a:Int) = a + 1
+    }
+    object MyObject extends MyTrait{
+    }
+    val res = MyObject.f1(1)
+
+    assert(res == 2)
+  }
+
+  test("Un trait puede tener tambien implementaciones2"){
+    trait MyTrait {
+      val v: Int = 1
+      def f1(a:Int):Int = a + 1 + v
+    }
+
+
+    class MyClass extends MyTrait
+
+    val mc = new MyClass
+    val res = mc.f1(1)
+    assert(res == 3)
+  }
+
+  test("Un trait puede tener tambien implementaciones3"){
+    trait MyTrait {
+      val v: Int
+      def f1(a:Int):Int = a + 1 + v
+    }
+
+    class MyClass(val v:Int = 2) extends MyTrait
+
+    val mc = new MyClass
+    val res = mc.f1(1)
+    assert(res == 4)
+  }
+
+  test("Un trait puede tener tambien implementaciones4"){
+    trait MyTrait {
+      val v: Int
+      def f1(a:Int):Int = a + 1 + v
+    }
+
+    object myObject extends MyTrait{
+      val v = 2
+    }
+
+
+    val res = myObject.f1(1)
+    assert(res == 4)
   }
 
 
@@ -174,7 +228,7 @@ class SyntaxSuite extends FunSuite{
     val c1 = Curso("Scala", Profesor("JP"))
 
     c1 match {
-      case x:Curso if x.p.nombre != "JP"=> {
+      case x:Curso if x.p.nombre == "JP"=> {
         assert(x.nombre=="Scala")
         assert(x.p==Profesor("JP"))
       }
@@ -185,6 +239,38 @@ class SyntaxSuite extends FunSuite{
       }
     }
 
+  }
+
+  test("verificando pattern machine 2"){
+    class Curso(nombre:String)
+
+    object Curso{
+      def unapply(curso:Curso): Option[String] = Some("abc")
+    }
+
+    val c = new Curso("Scala")
+    val c2= new Curso("Scalas")
+
+    c match {
+      case Curso(n) =>{
+        assert(n=="abc")
+      }
+    }
+
+    c2 match {
+      case Curso(n) =>{
+        assert(n=="abc")
+      }
+    }
+
+  }
+
+  test("verificando el método apply2"){
+    case class MyCaseClass(a:Int, b:String)
+    val mcc1 = MyCaseClass(1,"1")
+    val onApply= MyCaseClass.apply(1,"1")
+
+    assert(mcc1==onApply)
   }
 
 }

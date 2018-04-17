@@ -4,9 +4,16 @@ import org.scalatest.FunSuite
 
 class ListSuite extends FunSuite {
 
+  test("test lista vacía") {
+
+    val lista = List()
+    val lista2 = Nil
+    assert(lista == lista2)
+  }
+
   test("Una List se debe poder construir") {
 
-    val lista = List(1, 2, 3, 4)
+    val lista = Seq(1, 2, 3, 4)
     val lista2 = 1 :: 2 :: 3 :: 4 :: Nil
     assert(lista == lista2)
   }
@@ -22,6 +29,8 @@ class ListSuite extends FunSuite {
     assert(lista2.head == "1prueba")
     assert(lista != lista2)
     assert(lista2 == lista3)
+    assert(lista == List("1","2","3"))
+
   }
 
   test("Map de polizas"){
@@ -42,6 +51,15 @@ class ListSuite extends FunSuite {
       }
     }
   }
+  test("Una lista se debe poder acumular2") {
+    val lista = List(1, 2, 3, 4)
+
+    val resultado = lista.fold(1) { (acumulado, item) =>
+        acumulado + item
+      }
+    assert(resultado == 11)
+  }
+
 
   test("fold sobre una List de objetos"){
     case class MyCaseClass(i:Int, var s:String)
@@ -54,7 +72,8 @@ class ListSuite extends FunSuite {
 
   test("test dificil") {
     val lista = List(1, 2, 3, 4, 6, 7, 8, 9, 10)
-    assert(true)
+    val promedio = lista.filter(i=>i%2==0).fold(0){(sum, it)=> sum + it} / lista.filter(i=>i%2==0).length
+    assert(promedio == 6)
   }
 
   test("Una lista se debe poder acumular en una direccion determinada (izquierda)") {
@@ -128,6 +147,25 @@ class ListSuite extends FunSuite {
     assert(t._1 == List(1, 2) && t._2 == List(3, 4))
   }
 
+  test("Una lista se debe poder dividir2") {
+    val lista = List(1, 2, 3, 4)
+    val t: (List[Int], List[Int]) = lista.filter(i=>i%2==0).splitAt(2)
+    assert(t._1 == List(2,4) && t._2 == List())
+  }
+
+  test("Una lista se debe poder dividir3") {
+    val lista = List(1, 2, 3, 4)
+    val t: (List[Int], List[Int]) = lista.filter(i=>i%2==0).splitAt(0)
+    assert(t._1 == List() && t._2 == List(2,4))
+  }
+
+  test("Una lista se debe poder dividir4") {
+    val lista = List(1, 2, 3, 4)
+    val t: (List[Int], List[Int]) = lista.filter(i=>i%2==0).splitAt(-1)
+    assert(t._1 == List() && t._2 == List(2,4))
+  }
+
+
   test("Se puede hacer una lista de un solo tipo"){
     assertDoesNotCompile( "val l = List[String](\"1\", \"2\", 3)")
   }
@@ -162,9 +200,7 @@ class ListSuite extends FunSuite {
       lista.filter(numero =>
         numero % 2 == 0
       )
-
       lista.filter(_%2==0)
-
     }
   }
 
@@ -181,8 +217,8 @@ class ListSuite extends FunSuite {
 
   test("Una lista se debe poder serializar") {
     val lista = List(1, 2, 3, 4)
-    assertResult("1&2&3&4") {
-      lista.mkString("&")
+    assertResult("1-2-3-4") {
+      lista.mkString("-")
     }
   }
 
@@ -193,5 +229,12 @@ class ListSuite extends FunSuite {
     }
   }
 
+  test("Se pueden poder sumar los elementos de una lista2") {
+    case class MyCaseClass(a:Int, b: String)
+    val lista = List(MyCaseClass(1,"1"), MyCaseClass(2,"2"), MyCaseClass(3,"3"), MyCaseClass(4,"4"))
+//    assertResult(10) {
+//      lista.sum
+//    }
+  }
 
 }
