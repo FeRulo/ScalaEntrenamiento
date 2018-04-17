@@ -18,13 +18,13 @@ class SyntaxSuite extends FunSuite{
     assertDoesNotCompile("x = 1")
   }
 
-  test("Los tipos en Scala son iferidos por el compilador"){
+  test("Los tipos en Scala son inferidos por el compilador"){
     // Fijate como no hay que decir de qué tipo es x
     val x = 0
     assert(x == 0)
 
     // Aunque tambien lo puedes hacer explicito si asi lo quieres
-    val y= "0"
+    val y = "0"
     assert(y == "0")
 
     // Si eres incredulo fijate como el tipo es fuerte y no debil
@@ -76,9 +76,12 @@ class SyntaxSuite extends FunSuite{
 
     // A una class se le debe instanciar con new pasándole los atributos que define para su construccion
     val mc = new MyClass(1)
+
     val res = mc.f1
     assert(res == 2)
+    assertDoesNotCompile("println(mc.a)")
   }
+
 
   test("A un class se le puede  mutar su estado"){
 
@@ -105,11 +108,12 @@ class SyntaxSuite extends FunSuite{
     assert(mc.r == 2)
     val res2 = mc.f1
     assert(mc.r == 4)
+
   }
 
   test("Un case es una clase normal para usos especificos"){
 
-    case class MyCaseClass(a:Int, b:Int) {
+    case class MyCaseClass(var a:Int,var b:Int) {
       def f1(a:Int) = a + 1
     }
 
@@ -124,7 +128,7 @@ class SyntaxSuite extends FunSuite{
     assert(mcc2.f1(1) == 2)
 
     //Que pasa si intentamos println(mcc2) ?
-
+    println(mcc2)
     // Pregunta cuáles son esos casos específicos
 
   }
@@ -150,16 +154,70 @@ class SyntaxSuite extends FunSuite{
 
   }
 
-  test("Un trait puede tener tambien implementaciones"){
+  test("Un trait puede tener tambien implementaciones0"){
     trait MyTrait {
-      def f1(a:Int) = a + 1
+      def f1(a:Int):Int = a + 1
     }
+
 
     class MyClass extends MyTrait
 
     val mc = new MyClass
     val res = mc.f1(1)
     assert(res == 2)
+  }
+
+  test("Un trait puede tener tambien implementaciones1"){
+    trait MyTrait {
+      def f1(a:Int) = a + 1
+    }
+    object MyObject extends MyTrait{
+    }
+    val res = MyObject.f1(1)
+
+    assert(res == 2)
+  }
+
+  test("Un trait puede tener tambien implementaciones2"){
+    trait MyTrait {
+      val v: Int = 1
+      def f1(a:Int):Int = a + 1 + v
+    }
+
+
+    class MyClass extends MyTrait
+
+    val mc = new MyClass
+    val res = mc.f1(1)
+    assert(res == 3)
+  }
+
+  test("Un trait puede tener tambien implementaciones3"){
+    trait MyTrait {
+      val v: Int
+      def f1(a:Int):Int = a + 1 + v
+    }
+
+    class MyClass(val v:Int = 2) extends MyTrait
+
+    val mc = new MyClass
+    val res = mc.f1(1)
+    assert(res == 4)
+  }
+
+  test("Un trait puede tener tambien implementaciones4"){
+    trait MyTrait {
+      val v: Int
+      def f1(a:Int):Int = a + 1 + v
+    }
+
+    object myObject extends MyTrait{
+      val v = 2
+    }
+
+
+    val res = myObject.f1(1)
+    assert(res == 4)
   }
 
 
@@ -170,7 +228,7 @@ class SyntaxSuite extends FunSuite{
     val c1 = Curso("Scala", Profesor("JP"))
 
     c1 match {
-      case x:Curso if x.p.nombre != "JP"=> {
+      case x:Curso if x.p.nombre == "JP"=> {
         assert(x.nombre=="Scala")
         assert(x.p==Profesor("JP"))
       }
@@ -181,6 +239,38 @@ class SyntaxSuite extends FunSuite{
       }
     }
 
+  }
+
+  test("verificando pattern machine 2"){
+    class Curso(nombre:String)
+
+    object Curso{
+      def unapply(curso:Curso): Option[String] = Some("abc")
+    }
+
+    val c = new Curso("Scala")
+    val c2= new Curso("Scalas")
+
+    c match {
+      case Curso(n) =>{
+        assert(n=="abc")
+      }
+    }
+
+    c2 match {
+      case Curso(n) =>{
+        assert(n=="abc")
+      }
+    }
+
+  }
+
+  test("verificando el método apply2"){
+    case class MyCaseClass(a:Int, b:String)
+    val mcc1 = MyCaseClass(1,"1")
+    val onApply= MyCaseClass.apply(1,"1")
+
+    assert(mcc1==onApply)
   }
 
 }

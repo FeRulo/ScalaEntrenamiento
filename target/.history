@@ -1,0 +1,33 @@
+compile
+testOnly co.com.scalatraining.scalatest.specs.FeatureSpecExample
+testOnly co.com.scalatraining.scalatest.specs.TvSecSpec
+testOnly co.com.scalatraining.scalatest.specs.TvSetSpec
+testOnly co.com.scalatraining.scalatest.specs.TVSetSpec
+testOnly co.com.scalatraining.scalatest.specs.HelloSpec
+testOnly co.com.scalatraining.scalatest.specs.SetFreeSpec
+testOnly co.com.scalatraining.scalatest.specs.SetProcScpec
+testOnly co.com.scalatraining.scalatest.specs.SetPropScpec
+testOnly co.com.scalatraining.scalatest.specs.SetPropSpec
+testOnly co.com.scalatraining.scalatest.specs.SintaxSuite
+testOnly co.com.scalatraining.scalatest.suites.SintaxSuite
+testOnly co.com.scalatraining.scalatest.specs.SyntaxSuite
+testOnly co.com.scalatraining.scalatest.suites.SyntaxSuite
+compile
+testOnly co.com.scalatraining.scalatest.suites.SyntaxSuite
+testOnly co.com.scalatraining.scalatest.specs.SetProcScpec
+testOnly co.com.scalatraining.scalatest.specs.HelloSpec
+testOnly co.com.scalatraining.scalatest.suites.SuiteExample
+testOnly co.com.scalatraining.syntax.SyntaxSuite
+testOnly co.com.scalatraining.syntax.ListSuite
+testOnly co.com.scalatraining.collections.ListSuite
+testOnly co.com.scalatraining.collections.MapSuite
+testOnly co.com.scalatraining.collections.ListSuite
+testOnly co.com.scalatraining.collections.MapSuite
+testOnly co.com.scalatraining.collections.SortedMapSuite
+testOnly co.com.scalatraining.collections.MapSuite
+testOnly co.com.scalatraining.collections.SortedMapSuite
+testOnly co.com.scalatraining.collections.MapSuite
+testOnly co.com.scalatraining.collections.SortedMapSuite
+testOnly co.com.scalatraining.collections.TreeMapSuite
+testOnly co.com.scalatraining.collections.ListMapSuite
+testOnly co.com.scalatraining.collections.TreeMapSuite
