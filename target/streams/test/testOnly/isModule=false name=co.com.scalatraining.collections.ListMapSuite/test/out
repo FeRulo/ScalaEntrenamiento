@@ -1,7 +1,6 @@
 [0m[[0minfo[0m] [0m[32mListMapSuite:[0m[0m
 [0m[[0minfo[0m] [0m[32m- test crear [0m[0m
 [0m[[0minfo[0m] [0m[32m- test crear vacío[0m[0m
-[0m[[0minfo[0m] [0m[31m- test adicionar *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  Expected List((ascv,3), (ced,2), (dwer,1), (zbdc,4)), but got List((zbdc,4), (dwer,1), (ascv,3), (ced,2)) (ListMap.scala:29)[0m[0m
+[0m[[0minfo[0m] [0m[32m- test adicionar[0m[0m
 [0m[[0minfo[0m] [0m[32m- test eliminar[0m[0m
 [0m[[0minfo[0m] [0m[32m- test convertir[0m[0m

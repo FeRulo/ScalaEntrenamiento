@@ -8,9 +8,9 @@
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.TreeMapSuite" name="test crear vacío" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.TreeMapSuite" name="test adicionar" time="0.0">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.TreeMapSuite" name="test adicionar" time="0.001">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.TreeMapSuite" name="test eliminar" time="0.001">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.TreeMapSuite" name="test eliminar" time="0.0">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.TreeMapSuite" name="test convertir" time="0.0">
                                                  
