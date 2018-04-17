@@ -38,8 +38,14 @@ class ListMapSuite extends  FunSuite {
       (listMap + ("zbdc"-> 4) + ("dwer"->1) +("ascv"->3) +("ced"->2)).toList
     }
   }
-
-
+  test("test adicionar repetido"){
+    //si ingresamos un nodo lo ingresa al final y elimina el existente
+    val listMap = ListMap.empty[String, Int]
+    val listMap2 = listMap + ("zbdc"-> 4) + ("dwer"->1) +("ascv"->3) +("ced"->2)
+    assertResult(Map("dwer"->1, "ascv"->3, "ced"->2, "zbdc"->4).toList){
+      (listMap2 + ("zbdc"-> 4)).toList
+    }
+  }
 
   test("test eliminar"){
     //se elimina como un Map de forma estandar

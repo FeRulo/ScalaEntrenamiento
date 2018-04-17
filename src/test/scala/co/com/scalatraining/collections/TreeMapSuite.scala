@@ -30,6 +30,14 @@ class TreeMapSuite extends  FunSuite {
       (treeMap + ("zbdc"-> 4) + ("dwer"->1) +("ascv"->3) +("ced"->2)).toList
     }
   }
+  test("test adicionar repetido"){
+    //si ingresamos un nodo ya existente en el arbol, simplemente no añade uno más
+    val treeMap = TreeMap.empty[String, Int]
+    val treeMap2 = treeMap + ("zbdc"-> 4) + ("dwer"->1) +("ascv"->3) +("ced"->2)
+    assertResult(Map("ascv"->3, "ced"->2, "dwer"->1, "zbdc"->4).toList){
+      (treeMap2 + ("zbdc"-> 4)).toList
+    }
+  }
 
 
   test("test eliminar"){
