@@ -8,43 +8,52 @@ class ListMapSuite extends  FunSuite {
 
   test("test crear "){
     //se crea de forma estandar igual que un Map
-    val sortedMap = ListMap("1"->1,"2"->2,"3"->3)
+    val listMap = ListMap("1"->1,"2"->2,"3"->3)
     assertResult(ListMap("1"->1,"2"->2,"3"->3)){
-      sortedMap
+      listMap
     }
   }
 
 
   test("test crear vacío"){
     //para un ListMap vacío el tipo debe ser Ordenable
-    val sortedMap = ListMap.empty[String, Int]
+    val listMap = ListMap.empty[String, Int]
     assertResult(ListMap.empty ){
-      sortedMap
+      listMap
+    }
+  }
+
+  test("test leer"){
+    //con el listMap se puede acceder a un dato concreto desde su llave
+    val listMap = ListMap("1"->1,"2"->2,"3"->3)
+    assertResult(2){
+      listMap("2")
     }
   }
 
   test("test adicionar"){
-    //ingresamos valores en desorden pero el ListMap no los ordena tal como un Map
-    val sortedMap = ListMap.empty[String, Int]
+    //ingresamos valores en desorden pero el ListMap no los ordena dada el Ordenable
+    val listMap = ListMap.empty[String, Int]
     assertResult(Map("zbdc"->4, "dwer"->1, "ascv"->3, "ced"->2) .toList){
-      (sortedMap + ("zbdc"-> 4) + ("dwer"->1) +("ascv"->3) +("ced"->2)).toList
+      (listMap + ("zbdc"-> 4) + ("dwer"->1) +("ascv"->3) +("ced"->2)).toList
     }
   }
 
 
+
   test("test eliminar"){
     //se elimina como un Map de forma estandar
-    val sortedMap = ListMap("1"->1,"2"->2,"3"->3, "4"-> 4)
+    val listMap = ListMap("1"->1,"2"->2,"3"->3, "4"-> 4)
     assertResult(Map("2"->2,"3"->3, "4"-> 4)){
-      sortedMap.drop(1)
+      listMap.drop(1)
     }
   }
 
   test("test convertir"){
     //se transforman los elementos como un Map de forma estandar
-    val sortedMap = ListMap("1"->1,"2"->2,"3"->3)
+    val listMap = ListMap("1"->1,"2"->2,"3"->3)
     assertResult(Map("1"->2,"2"->3, "3"-> 4)){
-      sortedMap.map(t => (t._1, t._2 +1))
+      listMap.map(t => (t._1, t._2 +1))
     }
   }
 

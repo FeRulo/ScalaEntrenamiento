@@ -7,28 +7,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b5bd673[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6b5bd673[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (326ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55ee389e[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
@@ -51,53 +32,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;3.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.0 {test=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.0 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scalatest/scalatest_2.11/3.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scalatest/scalatest_2.11/3.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scalatest#scalatest_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scalatest#scalatest_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom (3.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.pom(pom.original) (304ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scalatest/scalatest_2.11/3.0.0/bundles/scalatest_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scalatest/scalatest_2.11/3.0.0/bundles/scalatest_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;3.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;3.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom (2.11.8)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.pom(pom.original) (878ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
@@ -111,54 +54,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalactic#scalactic_2.11;3.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalactic#scalactic_2.11;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scalactic/scalactic_2.11/3.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalactic#scalactic_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scalactic/scalactic_2.11/3.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scalactic#scalactic_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scalactic#scalactic_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalactic#scalactic_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom (3.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.pom(pom.original) (301ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scalactic/scalactic_2.11/3.0.0/bundles/scalactic_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scalactic/scalactic_2.11/3.0.0/bundles/scalactic_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalactic#scalactic_2.11;3.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalactic#scalactic_2.11;3.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.11;3.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.8[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-reflect;2.11.8[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-reflect;2.11.8[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.11.8[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom (2.11.8)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.pom(pom.original) (295ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.8/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.8 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-reflect;2.11.8[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.11;3.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
@@ -178,27 +83,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.5[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.5[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.5[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.5[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom (1.0.5)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.pom(pom.original) (301ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.5/bundles/scala-xml_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.5/bundles/scala-xml_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
@@ -212,27 +98,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom (1.0.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (304ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/bundles/scala-parser-combinators_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/bundles/scala-parser-combinators_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
@@ -350,27 +217,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-compiler/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-compiler;2.11.7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom (2.11.7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (298ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/jars/scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-compiler/2.11.7/jars/scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
@@ -385,27 +233,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom (2.11.7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.pom(pom.original) (302ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
@@ -417,27 +246,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom (1.0.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (307ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/bundles/scala-xml_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.4/bundles/scala-xml_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
@@ -470,30 +280,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/jline/jline/2.12.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/jline/jline/2.12.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/jline/jline/2.12.1/jline-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom (2.12.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (402ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.ivy2/local/jline/jline/2.12.1/jars/jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/s4n/.sbt/preloaded/jline/jline/2.12.1/jars/jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////home/s4n/.sbt/preloaded/jline/jline/2.12.1/jline-2.12.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
-[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
@@ -502,73 +290,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (10164ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(bundle) (4589ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar (2538ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(bundle) (649ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar (3868ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(bundle) (1128ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (768ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (19247ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (2047ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (537ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (377ms)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7080ms :: artifacts dl 45921ms[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 407ms :: artifacts dl 9ms[0m
 [0m[[0mdebug[0m] [0m	report for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 compile produced in /home/s4n/Fernando/entrenamiento_scala/target/resolution-cache/reports/sura_entrenamiento_scala-sura_entrenamiento_scala_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 runtime produced in /home/s4n/Fernando/entrenamiento_scala/target/resolution-cache/reports/sura_entrenamiento_scala-sura_entrenamiento_scala_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 test produced in /home/s4n/Fernando/entrenamiento_scala/target/resolution-cache/reports/sura_entrenamiento_scala-sura_entrenamiento_scala_2.11-test.xml[0m
@@ -582,5 +315,5 @@
 [0m[[0mdebug[0m] [0m	report for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 docs produced in /home/s4n/Fernando/entrenamiento_scala/target/resolution-cache/reports/sura_entrenamiento_scala-sura_entrenamiento_scala_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 pom produced in /home/s4n/Fernando/entrenamiento_scala/target/resolution-cache/reports/sura_entrenamiento_scala-sura_entrenamiento_scala_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for sura_entrenamiento_scala#sura_entrenamiento_scala_2.11;1.0 scala-tool produced in /home/s4n/Fernando/entrenamiento_scala/target/resolution-cache/reports/sura_entrenamiento_scala-sura_entrenamiento_scala_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (7080ms resolve - 45921ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (407ms resolve - 9ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

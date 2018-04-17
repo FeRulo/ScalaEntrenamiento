@@ -31,3 +31,4 @@ testOnly co.com.scalatraining.collections.SortedMapSuite
 testOnly co.com.scalatraining.collections.TreeMapSuite
 testOnly co.com.scalatraining.collections.ListMapSuite
 testOnly co.com.scalatraining.collections.TreeMapSuite
+testOnly co.com.scalatraining.collections.ListMapSuite

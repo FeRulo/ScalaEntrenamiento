@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dfd02f7-e8a0-4f50-ba3c-bb5e20233ab6" name="Default" comment="" />
+    <list default="true" id="7dfd02f7-e8a0-4f50-ba3c-bb5e20233ab6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -41,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+              <caret line="15" selection-start-line="15" selection-end-line="16" />
               <folding>
                 <element signature="e#42#71#0" expanded="true" />
               </folding>
@@ -49,23 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeMap.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMap.scala">
+      <file leaf-file-name="TreeMapSuite.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#42#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListMap.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMap.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+            <state relative-caret-position="104">
+              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
               <folding>
                 <element signature="e#42#71#0" expanded="true" />
               </folding>
@@ -97,6 +89,7 @@
       <find>Throw</find>
       <find>.map</find>
       <find>+</find>
+      <find>+</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMap.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMap.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala" />
       </list>
     </option>
   </component>
@@ -340,6 +335,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -533,30 +529,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
-          <folding>
-            <element signature="e#42#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
           <folding>
             <element signature="e#42#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMap.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="390">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           <folding>
             <element signature="e#42#71#0" expanded="true" />
           </folding>
