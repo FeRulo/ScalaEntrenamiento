@@ -2,9 +2,477 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dfd02f7-e8a0-4f50-ba3c-bb5e20233ab6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=co.com.scalatraining.collections.SetSuite/test/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.SetSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_11_3_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_3_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/entrenamiento_scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/entrenamiento_scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74f98bb643d9b889adb1$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74f98bb643d9b889adb1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74f98bb643d9b889adb1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74f98bb643d9b889adb1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cce0e0fdcb20f65d5583$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cce0e0fdcb20f65d5583$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cce0e0fdcb20f65d5583.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cce0e0fdcb20f65d5583.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/entrenamiento_scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/entrenamiento_scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/entrenamiento_scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/entrenamiento_scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-entrenamiento_scala-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SetSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SetSuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/OptionSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/OptionSuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/TrySuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/TrySuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Hello$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/bounds/BoundsSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/bounds/BoundsSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/bounds/BoundsSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions$$anonfun$3$CC$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions$$anonfun$3$CC$3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ForExpressions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$7$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListMapSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$1$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$1$Poliza$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$1$Poliza$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$12$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$12$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$16$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$17$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$18$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$18$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$18$MyCaseClass$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$18$MyCaseClass$6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$19$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$19$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$19$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$20$$anonfun$apply$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$21$$anonfun$apply$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$23$$anonfun$apply$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$26$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$29$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$30$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$31$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$36$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$36$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$37$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$9$MyCaseClass$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$9$MyCaseClass$8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/ListSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$10$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$10$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$16$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$17$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$17$MyCaseClass$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$17$MyCaseClass$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$18$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$9$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/MapSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite$$anonfun$3$Op$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite$$anonfun$4$Stereo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/OperatorsSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$17$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$18$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$6$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SetSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/SortedMapSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$6$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/collections/TreeMapSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/currying/CurryingSuite$$anonfun$2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/currying/CurryingSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/currying/CurryingSuite$$anonfun$3$$anonfun$f$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/currying/CurryingSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/currying/CurryingSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$2$$anonfun$3$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$2$$anonfun$3$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$2$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$2$objInterpretacion$2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Asegurado$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Asegurado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Cobertura$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Cobertura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Persona$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Poliza$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Poliza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Tarifa$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$Tarifa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$interpretacion$$anonfun$adicionarCobertura$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$interpretacion$$anonfun$consultarPoliza$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$interpretacion$$anonfun$crearCobertura$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$interpretacion$$anonfun$tarifar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$interpretacion$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$interpretacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite$operacionesEspecificas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/modeling/ModelingSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$14$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$16$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$16$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$19$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$19$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$19$$anonfun$20$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$19$$anonfun$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$21$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$21$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$22$$anonfun$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$22$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$24$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$24$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$25$$anonfun$13$$anonfun$applyOrElse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$25$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$25$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26$$anonfun$27$$anonfun$apply$7$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26$$anonfun$27$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26$$anonfun$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28$$anonfun$29$$anonfun$apply$8$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28$$anonfun$29$$anonfun$apply$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28$$anonfun$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28$$anonfun$co$com$scalatraining$monads$FutureSuite$$anonfun$$f2$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28$$anonfun$co$com$scalatraining$monads$FutureSuite$$anonfun$$f3$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28$$anonfun$f1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30$$anonfun$31$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30$$anonfun$31$$anonfun$apply$9$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30$$anonfun$31$$anonfun$apply$9$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30$$anonfun$31$$anonfun$apply$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30$$anonfun$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite$$anonfun$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/FutureSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$11$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$13$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$13$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$16$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$16$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$18$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$18$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$19$$anonfun$20$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$19$$anonfun$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$21$$anonfun$22$$anonfun$apply$4$$anonfun$apply$5$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$21$$anonfun$22$$anonfun$apply$4$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$21$$anonfun$22$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$21$$anonfun$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$23$$anonfun$24$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$23$$anonfun$24$$anonfun$apply$7$$anonfun$apply$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$23$$anonfun$24$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$23$$anonfun$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$7$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$9$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$9$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/OptionSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$12$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$12$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$14$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$14$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$14$$anonfun$apply$5$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$14$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$16$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$16$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$16$$anonfun$apply$7$$anonfun$apply$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$16$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$18$$anonfun$apply$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$20$$anonfun$21$$anonfun$apply$10$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$20$$anonfun$21$$anonfun$apply$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$20$$anonfun$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$20$$anonfun$apply$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$22$$anonfun$23$$anonfun$apply$12$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$22$$anonfun$23$$anonfun$apply$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$22$$anonfun$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24$$anonfun$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24$$anonfun$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24$$anonfun$27$$anonfun$apply$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24$$anonfun$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24$$anonfun$co$com$scalatraining$monads$TrySuite$$anonfun$$fi$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24$$anonfun$co$com$scalatraining$monads$TrySuite$$anonfun$$gi$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$28$$anonfun$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$28$$anonfun$fi$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$28$$anonfun$gi$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$30$$anonfun$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$30$$anonfun$co$com$scalatraining$monads$TrySuite$$anonfun$$fi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$30$$anonfun$gi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$30$$anonfun$unit$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$32$$anonfun$33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$32$$anonfun$co$com$scalatraining$monads$TrySuite$$anonfun$$fi$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$32$$anonfun$gi$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$32$$anonfun$unit$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$4$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$7$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$9$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$9$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$9$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$f$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite$$anonfun$s$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/monads/TrySuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/HelloSpec$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/HelloSpec$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/HelloSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFreeSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFreeSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFreeSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFreeSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFreeSpec$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFreeSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFunSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFunSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFunSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFunSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFunSpec$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetFunSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetPropSpec$$anonfun$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetPropSpec$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetPropSpec$$anonfun$2$$anonfun$apply$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetPropSpec$$anonfun$2$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetPropSpec$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetPropSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetWordSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetWordSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetWordSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetWordSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetWordSpec$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/SetWordSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/TVSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/TVSetSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/TVSetSpec$$anonfun$1$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/TVSetSpec$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/specs/TVSetSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/suites/SuiteExample$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/suites/SuiteExample$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/suites/SuiteExample$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/scalatest/suites/SuiteExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$1$MyCaseClass$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$1$MyCaseClass$6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$10$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$10$MyClass$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$10$MySecondTrait$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$10$MyTrait$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$11$MyClass$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$11$MyTrait$2$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$11$MyTrait$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$12$MyObject$2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$12$MyTrait$3$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$12$MyTrait$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$13$MyClass$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$13$MyTrait$4$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$13$MyTrait$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$14$MyClass$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$14$MyClass$8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$14$MyTrait$5$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$14$MyTrait$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$15$MyTrait$6$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$15$MyTrait$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$15$myObject$2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$16$Curso$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$16$Curso$5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$16$Profesor$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$16$Profesor$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$17$Curso$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$17$Curso$7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$18$MyCaseClass$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$18$MyCaseClass$8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$7$obj$2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$8$MyClass$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$9$MyClass$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/co/com/scalatraining/syntax/SyntaxSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=co.com.scalatraining.collections.ListMapSuite/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=co.com.scalatraining.collections.ListMapSuite/test/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.ListMapSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.ListMapSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.SortedMapSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.SortedMapSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.TreeMapSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/co.com.scalatraining.collections.TreeMapSuite.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -23,29 +491,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapSuite.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/MapSuite.scala">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+            <state relative-caret-position="105">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListSuite.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListSuite.scala">
+      <file leaf-file-name="SortedMapSuite.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListMapSuite.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+            <state relative-caret-position="223">
+              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding>
                 <element signature="e#42#71#0" expanded="true" />
               </folding>
@@ -53,11 +512,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="OptionSuite.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/OptionSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrySuite.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/TrySuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1596">
+              <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TreeMapSuite.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
+            <state relative-caret-position="220">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#42#71#0" expanded="true" />
               </folding>
@@ -96,11 +573,15 @@
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListSuite.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.java" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/MapSuite.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMap.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMap.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SetSuite.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/OptionSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/TrySuite.scala" />
       </list>
     </option>
   </component>
@@ -169,14 +650,23 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scalatraining" type="462c0819:PsiDirectoryNode" />
+              <item name="monads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sura_entrenamiento_scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="entrenamiento_scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scalatraining" type="462c0819:PsiDirectoryNode" />
               <item name="syntax" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -192,7 +682,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ScalaTest.TrySuite.Un Failure se debe poder recuperar con recover2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -211,6 +701,81 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="OptionSuite.Se debe poder crear un Option con valor" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="entrenamiento_scala" />
+      <setting name="path" value="co.com.scalatraining.monads.OptionSuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="co.com.scalatraining.monads.OptionSuite" />
+      <setting name="testName" value="Se debe poder crear un Option con valor" />
+    </configuration>
+    <configuration name="TrySuite.Se debe poder hacer pattern match sobre un Try que es Success" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="entrenamiento_scala" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="testName" value="Se debe poder hacer pattern match sobre un Try que es Success" />
+    </configuration>
+    <configuration name="TrySuite.Un Failure se debe poder recuperar con recover" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="entrenamiento_scala" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="testName" value="Un Failure se debe poder recuperar con recover" />
+    </configuration>
+    <configuration name="TrySuite.Un Failure se debe poder recuperar con recover2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="entrenamiento_scala" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="testName" value="Un Failure se debe poder recuperar con recover2" />
+    </configuration>
+    <configuration name="TrySuite.Un Success se debe poder map [assert con for-comp]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="entrenamiento_scala" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="co.com.scalatraining.monads.TrySuite" />
+      <setting name="testName" value="Un Success se debe poder map [assert con for-comp]" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -234,30 +799,26 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="ScalaTest.OptionSuite.Se debe poder crear un Option con valor" />
+      <item itemvalue="ScalaTest.TrySuite.Se debe poder hacer pattern match sobre un Try que es Success" />
+      <item itemvalue="ScalaTest.TrySuite.Un Success se debe poder map [assert con for-comp]" />
+      <item itemvalue="ScalaTest.TrySuite.Un Failure se debe poder recuperar con recover" />
+      <item itemvalue="ScalaTest.TrySuite.Un Failure se debe poder recuperar con recover2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.TrySuite.Un Failure se debe poder recuperar con recover2" />
+        <item itemvalue="ScalaTest.TrySuite.Un Failure se debe poder recuperar con recover" />
+        <item itemvalue="ScalaTest.TrySuite.Un Success se debe poder map [assert con for-comp]" />
+        <item itemvalue="ScalaTest.TrySuite.Se debe poder hacer pattern match sobre un Try que es Success" />
+        <item itemvalue="ScalaTest.OptionSuite.Se debe poder crear un Option con valor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
       <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="entrenamiento_scala" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="entrenamiento_scala" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="entrenamiento_scala-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -282,14 +843,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3047807014000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="1773211681" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1174672904" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="359365260" />
       </map>
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../s4n-java-training" value="PREVIEW" />
       </map>
     </option>
@@ -315,6 +874,38 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="OptionSuite_for_comprehesions_None_en_Option3 - 2018.04.18 at 09h 37m 54s.xml">
+      <configuration name="OptionSuite.for comprehesions None en Option3" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Tratando_el_Try_como_un_bloque_try-catch - 2018.04.18 at 09h 48m 41s.xml">
+      <configuration name="TrySuite.Tratando el Try como un bloque try-catch" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionSuite_Se_debe_poder_crear_un_Option_con_valor - 2018.04.18 at 09h 49m 41s.xml">
+      <configuration name="OptionSuite.Se debe poder crear un Option con valor" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Se_debe_poder_hacer_pattern_match_sobre_un_Try_que_es_Success - 2018.04.18 at 09h 51m 14s.xml">
+      <configuration name="TrySuite.Se debe poder hacer pattern match sobre un Try que es Success" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Se_debe_poder_hacer_pattern_match_sobre_un_Try_que_es_Success - 2018.04.18 at 09h 52m 15s.xml">
+      <configuration name="TrySuite.Se debe poder hacer pattern match sobre un Try que es Success" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Se_debe_poder_hacer_pattern_match_sobre_un_Try_que_es_Success - 2018.04.18 at 09h 52m 26s.xml">
+      <configuration name="TrySuite.Se debe poder hacer pattern match sobre un Try que es Success" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Un_Success_se_debe_poder_map_[assert_con_for-comp] - 2018.04.18 at 09h 54m 11s.xml">
+      <configuration name="TrySuite.Un Success se debe poder map [assert con for-comp]" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Un_Failure_se_debe_poder_recuperar_con_recover - 2018.04.18 at 09h 57m 22s.xml">
+      <configuration name="TrySuite.Un Failure se debe poder recuperar con recover" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Un_Failure_se_debe_poder_recuperar_con_recover - 2018.04.18 at 10h 00m 41s.xml">
+      <configuration name="TrySuite.Un Failure se debe poder recuperar con recover" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrySuite_Un_Failure_se_debe_poder_recuperar_con_recover2 - 2018.04.18 at 10h 00m 50s.xml">
+      <configuration name="TrySuite.Un Failure se debe poder recuperar con recover2" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -330,19 +921,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3295082" />
       <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3065574" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32131147" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32131147" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27853152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28332004" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.20655738" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -350,12 +943,10 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3295082" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -368,6 +959,60 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Suites de Colecciones repasados y SortedMapSuite creado&quot;" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/MapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SetSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -414,13 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -492,13 +1130,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.java" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/scalatest/suites/SuiteExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -506,20 +1138,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/collection/BitSet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#42#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SetSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="102" column="26" lean-forward="true" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
           <folding>
             <element signature="e#42#71#0" expanded="true" />
           </folding>
@@ -528,25 +1157,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/MapSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="15">
           <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="15">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/ListMapSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        <state relative-caret-position="105">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding>
             <element signature="e#42#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/TreeMapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/collections/SortedMapSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/OptionSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/co/com/scalatraining/monads/TrySuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1596">
+          <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
         </state>
       </provider>
     </entry>

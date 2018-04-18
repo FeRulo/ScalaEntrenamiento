@@ -18,7 +18,7 @@ class TreeMapSuite extends  FunSuite {
   test("test crear vacío"){
     //para un TreeMap vacío el tipo debe ser Ordenable
     val treeMap = TreeMap.empty[String, Int]
-    assertResult(TreeMap.empty ){
+    assertResult(TreeMap.empty[String, Int] ){
       treeMap
     }
   }

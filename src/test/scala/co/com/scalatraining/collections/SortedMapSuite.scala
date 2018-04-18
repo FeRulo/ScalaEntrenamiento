@@ -18,7 +18,7 @@ class SortedMapSuite extends  FunSuite {
   test("test crear vacío"){
     //para un SortedMap vacío el tipo debe ser Ordenable
     val sortedMap = SortedMap.empty[String, Int]
-    assertResult(SortedMap.empty ){
+    assertResult(SortedMap.empty[String, Int] ){
       sortedMap
     }
   }

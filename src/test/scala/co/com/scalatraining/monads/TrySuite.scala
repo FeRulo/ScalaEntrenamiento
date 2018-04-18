@@ -39,9 +39,13 @@ class TrySuite extends FunSuite with Matchers {
 
   test("Se debe poder hacer pattern match sobre un Try que es Success"){
     s match {
-      case Success(valor) => assert(true)
+      case Success(valor) => {
+        assert(valor == 1)
+        assert(true)
+      }
       case Failure(e) => assert(false)
     }
+
   }
 
   test("Un Failure se debe poder map"){
@@ -51,6 +55,7 @@ class TrySuite extends FunSuite with Matchers {
 
   test("Un Success se debe poder map [assert con for-comp]"){
     val res = s.map(x=>"HOLA")
+
     assert(res.isSuccess)
 
     for{
@@ -67,7 +72,6 @@ class TrySuite extends FunSuite with Matchers {
 
   test("Un Success se debe poder map [assert con flatmap]"){
     val res = s.map(x=>"HOLA")
-
     res.flatMap(x=> Success(assert(x=="HOLA")))
 
   }
@@ -82,6 +86,19 @@ class TrySuite extends FunSuite with Matchers {
 
     assert(res == Success("HOLA ME HE RECUPERADO"))
     res.flatMap(s => Try(assert(s == "HOLA ME HE RECUPERADO")) )
+
+  }
+
+  test("Un Failure se debe poder recuperar con recover2"){
+
+    val res = s.map(x=>"HOLA")
+      .recover{case e: Exception => {
+        println("ejecutando estrategia de recuperación")
+        "HOLA ME HE RECUPERADO"
+      }}
+
+
+    assert(res == Success("HOLA"))
 
   }
 

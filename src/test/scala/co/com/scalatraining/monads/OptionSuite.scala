@@ -6,9 +6,9 @@ class OptionSuite extends FunSuite {
 
   test("Se debe poder crear un Option con valor"){
     val s = Option{
-      1
+      1 + 2 + 3
     }
-    assert(s == Some(1))
+    assert(s == Some(6))
   }
 
   test("Se debe poder crear un Option para denotar que no hay valor"){
@@ -48,6 +48,18 @@ class OptionSuite extends FunSuite {
     assert(res == 21)
   }
 
+  test("Fold en Option2"){
+    val o = Option(1)
+
+    val res: String = o.fold{
+      "10"
+    }{
+      x => "hola"
+    }
+
+    assert(res == "hola")
+  }
+
   test("Se debe poder saber si un Option tiene valor con isDefined") {
     val lista = List(Some("Andres"), None, Some("Luis"), Some("Pedro"))
     val nombre = lista(0)
@@ -61,11 +73,27 @@ class OptionSuite extends FunSuite {
     assert(res == "NONAME")
   }
 
+  test("implementar getOrElse con fold") {
+    val o = Option(1)
+    val r1 = o.getOrElse(666)
+    val r2 = o.fold{666}{x=>x}
+
+    assert(r1==r2)
+  }
+
   test("Un Option se debe poder transformar con un map") {
     val lista = List(Some("Andres"), None, Some("Luis"), Some("Pedro"))
     val nombre = lista(0)
     val nombreCompleto: Option[String] = nombre.map(s => s + " Felipe")
     assert(nombreCompleto.getOrElse("NONAME") == "Andres Felipe")
+  }
+
+  test("Un Option es inmutable") {
+    val lista = List(Some("Andres"), None, Some("Luis"), Some("Pedro"))
+    val nombre = lista(0)
+    val nombreCompleto: Option[String] = nombre.map(s => s + " Felipe")
+    assert(nombreCompleto.getOrElse("NONAME") == "Andres Felipe")
+    assert(nombre.getOrElse("NONAME") != "Andres Felipe")
   }
 
   test("Un Option se debe poder transformar con flatMap en otro Option") {
@@ -85,6 +113,15 @@ class OptionSuite extends FunSuite {
 
     assert(res0 == None)
     assert(res1 == None)
+  }
+
+  test("Un Option se debe poder filtrar con una hof con filter2") {
+    val lista = List(Some(5), None, Some(40), Some(20))
+    val option0 = lista(0)
+    val option1 = lista(1)
+    val res0 = option0.filter(_>1)
+
+    assert(res0 == Some(5))
   }
 
   test("for comprehensions en Option") {
@@ -110,12 +147,12 @@ class OptionSuite extends FunSuite {
       eda <- consultarEdad
       sex <- consultarSexo
     //} yield (nom+","+ape+","+eda+","+sex)
-    } yield (s"$nom $ape, $eda,$sex")
+    } yield (s"$nom,$ape,$eda,$sex")
 
     assert(resultado == None)
   }
 
-  test("for comprehesions None en Option") {
+  test("for comprehesions None en Option2") {
 
     def consultarNombre(dni:String): Option[String] = Some("Felix")
     def consultarApellido(dni:String): Option[String] = Some("Vergara")
@@ -134,5 +171,35 @@ class OptionSuite extends FunSuite {
     assert(resultado == None)
   }
 
+  test("for comprehesions None en Option3") {
+
+    def consultarNombre(dni:String): Option[String] = {
+      println("ejecutando consultar Nombre")
+      Some("Felix")
+    }
+    def consultarApellido(dni:String): Option[String] = {
+      println("ejecutando consultar Apellido")
+      Some("Vergara")
+    }
+    def consultarEdad(dni:String): Option[String] = {
+      println("ejecutando consultar Edad")
+      None
+    }
+    def consultarSexo(dni:String): Option[String] = {
+      println("ejecutando consultar Sexo")
+      Some("M")
+    }
+
+    val dni = "8027133"
+    val resultado = for {
+      nom <- consultarNombre(dni)
+      ape <- consultarApellido(dni)
+      eda <- consultarEdad(dni)
+      sex <- consultarSexo(dni)
+      //} yield (nom+","+ape+","+eda+","+sex)
+    } yield (s"$nom $ape, $eda,$sex")
+
+    assert(resultado == None)
+  }
 }
 
