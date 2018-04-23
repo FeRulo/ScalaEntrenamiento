@@ -20,27 +20,3 @@ testOnly co.com.scalatraining.scalatest.suites.SuiteExample
 testOnly co.com.scalatraining.syntax.SyntaxSuite
 testOnly co.com.scalatraining.syntax.ListSuite
 testOnly co.com.scalatraining.collections.ListSuite
-testOnly co.com.scalatraining.collections.MapSuite
-testOnly co.com.scalatraining.collections.ListSuite
-testOnly co.com.scalatraining.collections.MapSuite
-testOnly co.com.scalatraining.collections.SortedMapSuite
-testOnly co.com.scalatraining.collections.MapSuite
-testOnly co.com.scalatraining.collections.SortedMapSuite
-testOnly co.com.scalatraining.collections.MapSuite
-testOnly co.com.scalatraining.collections.SortedMapSuite
-testOnly co.com.scalatraining.collections.TreeMapSuite
-testOnly co.com.scalatraining.collections.ListMapSuite
-testOnly co.com.scalatraining.collections.TreeMapSuite
-testOnly co.com.scalatraining.collections.ListMapSuite
-testOnly co.com.scalatraining.collections.TreeMapSuite
-testOnly co.com.scalatraining.collections.ListMapSuite
-testOnly co.com.scalatraining.collections.TreeMapSuite
-testOnly co.com.scalatraining.collections.SortedMapSuite
-testOnly co.com.scalatraining.collections.SetSuite
-update
-comile
-compile
-testOnly co.com.scalatraining.collections.SetSuite
-update
-compile
-testOnly co.com.scalatraining.collections.SetSuite

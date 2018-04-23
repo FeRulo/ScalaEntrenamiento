@@ -159,7 +159,6 @@ class SyntaxSuite extends FunSuite{
       def f1(a:Int):Int = a + 1
     }
 
-
     class MyClass extends MyTrait
 
     val mc = new MyClass
@@ -273,4 +272,13 @@ class SyntaxSuite extends FunSuite{
     assert(mcc1==onApply)
   }
 
+  test("verificando funcionamiento de Lazy"){
+    def foo (i:Int):Int={
+      println( s"evaluando foo con $i")
+      i
+    }
+
+    lazy val res = foo(1)
+    assert(res==1)
+  }
 }

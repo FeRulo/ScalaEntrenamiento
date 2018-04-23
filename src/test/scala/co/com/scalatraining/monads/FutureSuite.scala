@@ -18,14 +18,16 @@ class FutureSuite extends FunSuite {
 
     var hiloFuture = ""
     println(s"El hilo ppal es ${hiloPpal}")
+
     val saludo = Future {
       hiloFuture = Thread.currentThread().getName
       println(s"El hilo del future es ${hiloFuture}")
-
       Thread.sleep(500)
       "Hola"
     }
+    println(saludo)
     val resultado = Await.result(saludo, 10 seconds)
+    println(saludo)
     assert(resultado == "Hola")
     assert(hiloPpal != hiloFuture)
   }
@@ -47,7 +49,6 @@ class FutureSuite extends FunSuite {
     val saludoCompleto = saludo.map(mensaje => {
       val t3 = Thread.currentThread().getName
       println(s"El hilo del map es ${t3}")
-
       mensaje + " muchachos"
     })
     val resultado = Await.result(saludoCompleto, 10 seconds)
@@ -56,12 +57,12 @@ class FutureSuite extends FunSuite {
 
   test("Se debe poder encadenar Future con for-comp") {
     val f1 = Future {
-      Thread.sleep(200)
+      Thread.sleep(1000)
       1
     }
 
     val f2 = Future {
-      Thread.sleep(200)
+      Thread.sleep(2000)
       2
     }
 
@@ -95,11 +96,9 @@ class FutureSuite extends FunSuite {
   }
 
   test("Se debe poder manejar el exito de un Future de forma imperativa") {
-
     val division = Future {
       5
     }
-
     var r = 0
 
     val f = division.onComplete {
@@ -171,7 +170,7 @@ class FutureSuite extends FunSuite {
   test("Los future **iniciados** fuera de un for-comp deben iniciar al mismo tiempo") {
 
     val timeForf1 = 100
-    val timeForf2 = 100
+    val timeForf2 = 400
     val timeForf3 = 100
 
     val additionalTime = 50D
@@ -202,6 +201,8 @@ class FutureSuite extends FunSuite {
     val res = Await.result(resultado, 10 seconds)
     val elapsed = (System.nanoTime() - t1) / 1.0E09
 
+    println(s"futuros iniciador fuera del for-comp: estimado: $estimatedElapsed ,real: $elapsed")
+
     assert(elapsed <= estimatedElapsed)
     assert(res == 6)
 
@@ -210,10 +211,10 @@ class FutureSuite extends FunSuite {
   test("Los future **definidos** fuera de un for-comp deben iniciar secuencialmente") {
 
     val timeForf1 = 100
-    val timeForf2 = 100
-    val timeForf3 = 100
+    val timeForf2 = 500
+    val timeForf3 = 400
 
-    val estimatedElapsed = (timeForf1 + timeForf2 + timeForf3)/1000
+    val estimatedElapsed:Double = (timeForf1 + timeForf2 + timeForf3)/1000
 
     def f1 = Future {
       Thread.sleep(timeForf1)
@@ -238,6 +239,47 @@ class FutureSuite extends FunSuite {
 
     val res = Await.result(resultado, 10 seconds)
     val elapsed = (System.nanoTime() - t1) / 1.0E09
+
+    println(s"futuros iniciador fuera del for-comp: estimado: $estimatedElapsed ,real: $elapsed")
+
+    assert(elapsed >= estimatedElapsed)
+    assert(res == 6)
+
+  }
+
+  test("Los future **lazy val** fuera de un for-comp deben iniciar secuencialmente") {
+
+    val timeForf1 = 100
+    val timeForf2 = 500
+    val timeForf3 = 400
+
+    val estimatedElapsed:Double = (timeForf1 + timeForf2 + timeForf3)/1000
+
+    lazy val lv1 = Future {
+      Thread.sleep(timeForf1)
+      1
+    }
+    lazy val lv2 = Future {
+      Thread.sleep(timeForf2)
+      2
+    }
+    lazy val lv3 = Future {
+      Thread.sleep(timeForf3)
+      3
+    }
+
+    val t1 = System.nanoTime()
+
+    val resultado = for {
+      a <- lv1
+      b <- lv2
+      c <- lv3
+    } yield (a+b+c)
+
+    val res = Await.result(resultado, 10 seconds)
+    val elapsed = (System.nanoTime() - t1) / 1.0E09
+
+    println(s"futuros iniciador fuera del for-comp: estimado: $estimatedElapsed ,real: $elapsed")
 
     assert(elapsed >= estimatedElapsed)
     assert(res == 6)
@@ -276,5 +318,27 @@ class FutureSuite extends FunSuite {
     assert(res == 6)
   }
 
+  test("taller"){
+    val l = List(Future{1},Future{2},Future{3},Future{4},Future{5},Future{6},Future{7},Future{8},Future{9},Future{10})
+    val r:Future[Int] = l.fold(Future{0}){(fr, fi)=> for{
+        i1<-fr
+        i2<-fi
+      }yield(i1+i2)}
+    val res = Await.result(r, 10 seconds)
+    assert(res == 55)
+  }
+  test("taller con Sequence"){
+    val l = Range(1,11).map(i=> Future(i))
+    val res = Future.sequence(l)//Future of List
+          .map(li=>li.sum)
+    val prom = Await.result(res, 10 seconds)
+    assert(prom == 55)
+  }
 
+  test("taller con Traverse"){
+    val l = (1 to 10).map(i=> Future(i))
+    val res = Future.traverse(l)(f=>f.map(i=> i*2)).map(li=>li.sum)
+    val prom = Await.result(res, 10 seconds)
+    assert(prom == 110)
+  }
 }
