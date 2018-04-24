@@ -1,3 +1,0 @@
-[0m[[0minfo[0m] [0m[32mSetPropSpec:[0m[0m
-[0m[[0minfo[0m] [0m[32m- an empty Set should have size 0[0m[0m
-[0m[[0minfo[0m] [0m[32m- invoking head on an empty set should produce NoSuchElementException[0m[0m

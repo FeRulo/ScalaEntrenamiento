@@ -4,6 +4,23 @@ import org.scalatest.FunSuite
 
 class OptionSuite extends FunSuite {
 
+  def max(o1:Option[Int], o2:Option[Int]):Option[Int]={
+    o1.fold{o2}{x=> o2.fold{o1}{y=>Some(Math.max(x,y))}}
+  }
+
+  test("test de carlos1"){
+    assert(max(Some(3),Some(6))==Some(6))
+  }
+  test("test de carlos2"){
+    assert(max(Some(3),None)==Some(3))
+  }
+  test("test de carlos3"){
+    assert(max(None,Some(6))==Some(6))
+  }
+  test("test de carlos4"){
+    assert(max(None,None)==None)
+  }
+
   test("Se debe poder crear un Option con valor"){
     val s = Option{
       1 + 2 + 3

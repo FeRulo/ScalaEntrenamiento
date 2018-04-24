@@ -10,6 +10,7 @@ import scala.concurrent.{ExecutionContext, Await, Future}
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 
+
 class FutureSuite extends FunSuite {
 
   test("Un futuro se puede crear") {
@@ -146,7 +147,7 @@ class FutureSuite extends FunSuite {
     val f1 = Future {
       threadName1 = Thread.currentThread().getName
       2/0
-    }(ecParaPrimerHilo)
+    }
     .recoverWith {
       case e: ArithmeticException => {
 
@@ -340,5 +341,25 @@ class FutureSuite extends FunSuite {
     val res = Future.traverse(l)(f=>f.map(i=> i*2)).map(li=>li.sum)
     val prom = Await.result(res, 10 seconds)
     assert(prom == 110)
+  }
+
+  test("mi test"){
+    implicit val ec = ExecutionContext.fromExecutorService(Executors.newFixedThreadPool(5))
+    val estimatedElapsed = (2000+ 50)/1000
+
+    val t1 = System.nanoTime()
+    val l = Range(1,21).map(i=> {
+      Future{
+        Thread.sleep(i*100)
+        i}
+    })
+
+    val otro = Future.sequence(l).map(l=>l.sum)
+    val variable=Await.result(otro ,10 seconds)
+    val elapsed = (System.nanoTime() - t1) / 1.0E09
+
+    println(s"futuros iniciador fuera del for-comp: estimado: $estimatedElapsed ,real: $elapsed")
+
+    println(variable)
   }
 }
