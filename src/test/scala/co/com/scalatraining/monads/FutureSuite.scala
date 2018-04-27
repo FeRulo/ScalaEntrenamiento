@@ -3,12 +3,14 @@ package co.com.scalatraining.monads
 import java.util.Random
 import java.util.concurrent.Executors
 
+
 import org.scalatest.FunSuite
 import scala.language.postfixOps
 import scala.util.{Failure, Success}
 import scala.concurrent.{ExecutionContext, Await, Future}
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
+import com.example.pool.global
+//import scala.concurrent.ExecutionContext.
 
 
 class FutureSuite extends FunSuite {
@@ -328,6 +330,7 @@ class FutureSuite extends FunSuite {
     val res = Await.result(r, 10 seconds)
     assert(res == 55)
   }
+
   test("taller con Sequence"){
     val l = Range(1,11).map(i=> Future(i))
     val res = Future.sequence(l)//Future of List
@@ -343,8 +346,8 @@ class FutureSuite extends FunSuite {
     assert(prom == 110)
   }
 
-  test("mi test"){
-    implicit val ec = ExecutionContext.fromExecutorService(Executors.newFixedThreadPool(5))
+  test("mitest"){
+    //implicit val ec = ExecutionContext.fromExecutorService(Executors.newFixedThreadPool(20))
     val estimatedElapsed = (2000+ 50)/1000
 
     val t1 = System.nanoTime()
@@ -357,9 +360,6 @@ class FutureSuite extends FunSuite {
     val otro = Future.sequence(l).map(l=>l.sum)
     val variable=Await.result(otro ,10 seconds)
     val elapsed = (System.nanoTime() - t1) / 1.0E09
-
     println(s"futuros iniciador fuera del for-comp: estimado: $estimatedElapsed ,real: $elapsed")
-
-    println(variable)
   }
 }
